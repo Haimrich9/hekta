@@ -1,0 +1,134 @@
+body {
+    font: 75%/1.5 Verdana, Tahoma, Arial, Helvetica, Sans-Serif;
+}
+
+form {
+    /*width: 400px;*/
+}
+
+fieldset{
+    border: solid #78d1c7 3px;
+    padding: 10px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    /*width: 390px;*/
+}
+
+fieldset div{
+    margin-bottom: 8px;
+    clear: both;
+}
+.iframeFields{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.iframeFields ul {
+    list-style-type:none;
+}
+
+/* #47728: highlight suggested choice */
+.dynform-suggested-choice {
+font-weight: bold;
+}
+
+.clearBoth {
+    clear: both;
+    margin: 0px;
+}
+label {
+    display: block;
+    font-size: 1.1em;
+}
+
+label.radioLabel {
+    display: inline;
+}
+
+input {
+    border: solid #cccccc 1px;
+    background-color: #f1f1f1;
+    margin: 1px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.hiddenBox[type="text"]{
+    width: 35px;
+    border: none;
+    background-color: #ffffff;
+    float: left;
+}
+
+.smalere[type="text"] {
+    width: 347px;
+}
+
+input:active {
+    background-color: #dbeafb;
+}
+
+input:focus {
+    background-color: #ffffff;
+}
+
+fieldset div.error input {
+    border-color: #dd514c; 
+}
+
+div.pager {
+    padding: 10px 25px 10px 10px;
+}
+
+div.pager input.next, div.pager input.submit{
+    float: left;
+}
+
+div.pager input.previous {
+    float: left;
+}
+
+label[for=id_org_application-memberslist-postal_address_0] {
+    position: relative;
+    top: -38px;
+}
+
+.hs-day-select, .hs-month-select{
+    width:55px !important;
+}
+
+.hs-datepicker {
+    display:none;
+}
+
+#org_application-memberslist-form span {
+    display: block;
+}
+
+#id_org_application-memberslist-postal_address_2_1{
+    max-width: 135px;
+}
+
+th label[for=id_org_application-memberslist-role_0] {
+    max-width: 100px;
+    position: relative;
+    top: -10px;
+}
+
+.iframeFields h6 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#org_application_memberslist_table th {
+    padding-right: 10px;
+}
+td.DELETE img {
+  cursor: pointer;
+}
+
+.redText {
+  color: #dd514c;
+  font-weight: bold;
+}
